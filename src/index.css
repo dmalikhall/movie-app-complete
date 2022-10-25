@@ -7,6 +7,11 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.main-background {
+  background: #252324;
+  
+}
+
 
 
 .movies-container {
@@ -18,6 +23,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
+  
 }
 
 .image-container {
