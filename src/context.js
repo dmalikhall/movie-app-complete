@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 
-export const API_ENDPOINT = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_MOVIE_APP_KEY}`;
+export const API_ENDPOINT = `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_MOVIE_APP_KEY}`;
 
 
 const AppContext = React.createContext()
